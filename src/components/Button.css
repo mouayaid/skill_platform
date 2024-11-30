@@ -1,0 +1,5 @@
+.btn:active {
+    transform: none; /* Prevents size change */
+    box-shadow: none; /* Optional: Removes any shadow */
+  }
+  

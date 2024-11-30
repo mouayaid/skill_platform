@@ -1,0 +1,63 @@
+.custom-navbar{
+    border-bottom : 4px solid rgba(53, 51, 49, 0.049);
+}
+.title {
+    color: red;
+}
+.custom-nav-item {
+    margin: 10px;
+    padding: 10px;
+    font-family: Muli , sans-serif;
+    transition: all 0.3s ease;
+}
+.custom-nav-item:hover {
+    color: red !important;
+    animation: vanish-and-come-back 0.4s ease-in-out;
+
+}
+@keyframes vanish-and-come-back {
+    0%, 100% {
+        opacity: 1; /* Fully visible at the start and end */
+    }
+    50% {
+        opacity: 0; /* Fully invisible in the middle */
+    }
+}
+
+.icon {
+    align-items: right;
+}
+
+.custom-navbar {
+    position: relative;
+    height: 70px;
+
+  }
+  
+  .top-right-btn {
+    position: absolute;
+    right: 0px; /* Adjust as needed */
+  }
+.custom-hover{
+    border-radius: 0;
+    background-color: #343a40;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    margin-left: auto; /* Push button to the right */
+
+}
+
+
+/* Hover effect for the entire button */
+.custom-hover:hover {
+    background-color: #495057; /* Change background color on hover */
+    color: #fff; /* Ensure text color stays white */
+  }
+  
+  /* Ensure the icon also gets styled within the hover effect */
+  .custom-hover:hover i {
+    transform: translateX(5px); /* Slide the icon to the right on hover */
+  }
+  
+  
+  

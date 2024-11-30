@@ -1,0 +1,54 @@
+/* Sticky Footer Styles */
+html, body {
+    height: 100%; /* Ensure body takes full height of the page */
+    margin: 0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make the root element take up full viewport height */
+  }
+  
+  .custom-footer {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 40px 0;
+    text-align: left;
+    margin-top: auto; /* Push the footer to the bottom */
+  }
+  
+  .footer-brand {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .footer-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-list li {
+    margin: 5px 0;
+    color: #cccccc; /* Light grey text */
+    transition: color 0.3s ease;
+  }
+  
+  .footer-list li:hover {
+    color: #ffffff; /* Hover effect */
+  }
+  
+  h6 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  @media (max-width: 767px) {
+    .custom-footer {
+      text-align: center;
+    }
+  }
+  

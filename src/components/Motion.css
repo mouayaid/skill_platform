@@ -1,0 +1,39 @@
+.timeline {
+    padding: 2rem;
+    text-align: center;
+    background: #e9ecef;
+    border-radius: 8px;
+  }
+  
+  .timeline h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    color: #343a40;
+  }
+  
+  .timeline-step .icon {
+    background: #6bd3d3;
+    color: #ffffff;
+    font-size: 2rem;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-right: 1.5rem;
+  }
+  
+  .timeline-step .content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeline-step .content p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
